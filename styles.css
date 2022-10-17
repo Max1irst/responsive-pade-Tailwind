@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+
+  ul>li{
+    @apply transition-all duration-100 hover:text-yellow-200
+  }
+  button {
+    @apply transition-all duration-300 hover:text-yellow-200 hover:border-none
+  }
+}
+
+
+
+
+@font-face {
+  font-family: "BebasNeuebook";
+  src: url("./fonts/bebasneuebook.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Lobster1.4";
+  src: url("./fonts/Lobster1.4.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("./fonts/OpenSans.ttf") format("truetype");
+}
