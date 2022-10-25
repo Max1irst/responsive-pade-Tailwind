@@ -1034,19 +1034,19 @@ button:hover {
 @font-face {
   font-family: "BebasNeuebook";
 
-  src: url("./fonts/bebasneuebook.ttf") format("truetype");
+  src: url("./src/fonts/bebasneuebook.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Lobster1.4";
 
-  src: url("./fonts/Lobster1.4.otf") format("truetype");
+  src: url("./src/fonts/Lobster1.4.otf") format("truetype");
 }
 
 @font-face {
   font-family: "OpenSans";
 
-  src: url("./fonts/OpenSans.ttf") format("truetype");
+  src: url("./src/fonts/OpenSans.ttf") format("truetype");
 }
 
 @media (min-width: 640px) {
