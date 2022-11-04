@@ -9,7 +9,7 @@
     @apply transition-all duration-100 hover:text-yellow-200
   }
   button {
-    @apply transition-all duration-300 hover:text-yellow-200 hover:border-none
+    @apply flex justify-center items-center transition-all duration-300 hover:text-yellow-200 hover:border-none
   }
 }
 
@@ -30,3 +30,5 @@
   font-family: "OpenSans";
   src: url("./src/fonts/OpenSans.ttf") format("truetype");
 }
+
+

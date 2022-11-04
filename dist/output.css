@@ -570,6 +570,9 @@ ul>li:hover {
 }
 
 button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 300ms;
@@ -726,8 +729,8 @@ button:hover {
   width: 135px;
 }
 
-.max-w-7xl {
-  max-width: 80rem;
+.max-w-full {
+  max-width: 100%;
 }
 
 .flex-col {
@@ -776,6 +779,10 @@ button:hover {
 
 .gap-10 {
   gap: 2.5rem;
+}
+
+.rounded-sm {
+  border-radius: 0.125rem;
 }
 
 .rounded-\[5px\] {
@@ -1223,3 +1230,5 @@ button:hover {
     font-size: 61px;
   }
 }
+
+
