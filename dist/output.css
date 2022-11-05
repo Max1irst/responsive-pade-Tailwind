@@ -569,21 +569,6 @@ ul>li:hover {
   color: rgb(254 240 138 / var(--tw-text-opacity));
 }
 
-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 300ms;
-}
-
-button:hover {
-  border-style: none;
-  --tw-text-opacity: 1;
-  color: rgb(254 240 138 / var(--tw-text-opacity));
-}
-
 .absolute {
   position: absolute;
 }
@@ -607,6 +592,33 @@ button:hover {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.mx-6 {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.box-border {
+  box-sizing: border-box;
 }
 
 .block {
@@ -860,6 +872,26 @@ button:hover {
   padding-right: 1rem;
 }
 
+.py-\[\] {
+  padding-top: ;
+  padding-bottom: ;
+}
+
+.py-\[85\] {
+  padding-top: 85;
+  padding-bottom: 85;
+}
+
+.py-\[8\.5\] {
+  padding-top: 8.5;
+  padding-bottom: 8.5;
+}
+
+.py-\[8\.5px\] {
+  padding-top: 8.5px;
+  padding-bottom: 8.5px;
+}
+
 .pl-10 {
   padding-left: 2.5rem;
 }
@@ -993,6 +1025,30 @@ button:hover {
   line-height: 1.867;
 }
 
+.leading-\[\] {
+  line-height: ;
+}
+
+.leading-\[137\] {
+  line-height: 137;
+}
+
+.leading-\[137px\] {
+  line-height: 137px;
+}
+
+.leading-\[1\.37px\] {
+  line-height: 1.37px;
+}
+
+.leading-10 {
+  line-height: 2.5rem;
+}
+
+.leading-\[68\.5px\] {
+  line-height: 68.5px;
+}
+
 .tracking-wider {
   letter-spacing: 0.05em;
 }
@@ -1090,6 +1146,14 @@ button:hover {
 @media (min-width: 768px) {
   .md\:relative {
     position: relative;
+  }
+
+  .md\:mt-4 {
+    margin-top: 1rem;
+  }
+
+  .md\:mt-8 {
+    margin-top: 2rem;
   }
 
   .md\:block {
